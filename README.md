@@ -20,7 +20,9 @@ Created as a personal project for learning and utility purposes.
 #include "clsString.h"
 #include <vector>
 
+
  int main() 
+ 
  {
     clsString str("Hello World! Hello everyone.");
    
