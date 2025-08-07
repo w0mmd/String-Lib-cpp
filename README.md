@@ -20,11 +20,13 @@ Created as a personal project for learning and utility purposes.
 #include "clsString.h"
 #include <vector>
 
-int main() {
+ int main() {
     clsString str("Hello World! Hello everyone.");
     str.ReplaceWord("Hello", "Hi");
     int count = str.CountWords();
-}
+    std::vector<std::string> words = str.Split(' '); 
+    return 0;}
+     
 --------------------------------------------------
 ## Library Status:
 
@@ -36,7 +38,3 @@ The library is completed but may have some new updates in the future.
 
 Created by Mohammed Alhamad (W0mmd).
 
-
-    std::vector<std::string> words = str.Split(' ');
-    return 0;
-}
