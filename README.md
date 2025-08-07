@@ -22,9 +22,13 @@ Created as a personal project for learning and utility purposes.
 
  int main() {
     clsString str("Hello World! Hello everyone.");
+   
     str.ReplaceWord("Hello", "Hi");
+    
     int count = str.CountWords();
+   
     std::vector<std::string> words = str.Split(' '); 
+  
     return 0;}
      
 --------------------------------------------------
